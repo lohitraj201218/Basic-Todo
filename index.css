@@ -1,0 +1,82 @@
+body{
+    background-color:#ffffff;
+    font-family: sans-serif;
+}
+h1{
+    text-align:center;
+}
+
+.container{
+    margin:auto;
+    width:60%;
+    height:80px;
+    background-color:lightgray;
+    border: 2px solid gray; 
+    border-radius: 15px;
+    position: center; 
+    
+}
+
+.heading{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    
+
+}
+
+#butt { 
+     background-color: #4CAF50; /* Green background */
+     border: 1px solid green; /* Green border */
+     color: white; /* White text */
+     padding: 10px 24px; /* Some padding */
+     cursor: pointer; /* Pointer/hand icon */
+}
+.b1{
+    background-color: #4CAF50; /* Green background */
+     border: 1px solid green; /* Green border */
+     color: white; /* White text */
+     padding: 10px 24px; /* Some padding */
+     cursor: pointer; /* Pointer/hand icon */
+}
+.forbut{
+     margin:1px 300px;
+     position: relative;
+}
+
+
+.result{
+    display: "none";
+    margin:auto;
+    width:60%;
+    background-color:#ffffff;
+    border: 2px solid gray; 
+    border-radius: 15px;
+}
+table{
+    border-collapse: collapse;
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    width: 100%;
+}
+tr{
+    /* border-collapse: collapse; */
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-radius: 15px; */
+}
+.tablerow{
+    /* border-collapse: collapse; */
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-radius: 15px; */
+}
+
+.tbhead{
+text-align: left;
+}

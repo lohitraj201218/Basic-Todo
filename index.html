@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>To-Do List</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <script src="index.js">
+     //
+         </script>
+   </head>
+   <body>
+      <h1>#T0-D0...</h1>
+      <div class="container">
+            <div class=heading>
+               <input type="text" id=name class="myinput" onchange="check()" placeholder="Enter Task"  required>
+               <input type="text" id=des class="myinput" placeholder="Description" >
+               <select  id=opt class="myinput">
+                  <option value="0">Low</option>
+                  <option value="1">Medium</option>
+                  <option value="2">High</option>
+               </select>
+               <input type="date" id=time class="myinput" placeholder="End Time" >
+               <button id=butt onclick="add()">Add</button>
+            </div>
+      </div>
+      <div class=result >
+        <!--
+           <p id ="demo"></p>
+         <ul id="tasks">
+            
+         </ul>
+        -->
+        <table id="todotable">
+           <tr>
+              <th class="tbhead"><input type="checkbox" id = "test" onclick="togglefunc()"></th>
+              <th class="tbhead">Name</th>
+              <th class="tbhead">Description</th>
+              <th class="tbhead">Priority</th>
+              <th class="tbhead">End Time</th>
+           </tr>
+        </table>
+        
+        <div class="forbut">
+            <br>
+         <button id="delete" class="b1" onclick="del()">Delete</button>
+         <button id="update" class="b1" onclick="upd()">Update</button></div>
+         <br>
+      </div>
+   </body>
+</html>
