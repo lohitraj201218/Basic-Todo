@@ -11,7 +11,8 @@
       <h1>#T0-D0...</h1>
       <div class="container">
             <div class=heading>
-               <input type="text" id=name class="myinput" onchange="check()" placeholder="Enter Task"  required>
+               <input type="text" id=name class="myinput" onblur="check()" placeholder="Enter Task"  required>
+               <!-- <label for="myinput"><h6 id=AlertMessage>Already Exists!</h6></label> -->
                <input type="text" id=des class="myinput" placeholder="Description" >
                <select  id=opt class="myinput">
                   <option value="0">Low</option>
@@ -21,14 +22,10 @@
                <input type="date" id=time class="myinput" placeholder="End Time" >
                <button id=butt onclick="add()">Add</button>
             </div>
+            <h6 id=AlertMessage>Already Exists!</h6>
       </div>
+      <br>
       <div class=result >
-        <!--
-           <p id ="demo"></p>
-         <ul id="tasks">
-            
-         </ul>
-        -->
         <table id="todotable">
            <tr>
               <th class="tbhead"><input type="checkbox" id = "test" onclick="togglefunc()"></th>
@@ -45,5 +42,6 @@
          <button id="update" class="b1" onclick="upd()">Update</button></div>
          <br>
       </div>
+      <h5 id="AlertMessage2">Name Field can't be empty!</h5>
    </body>
 </html>

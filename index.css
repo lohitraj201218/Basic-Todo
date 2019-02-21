@@ -1,42 +1,51 @@
 body{
-    background-color:#ffffff;
+    background-color:rgb(216, 219, 252);
     font-family: sans-serif;
 }
 h1{
     text-align:center;
 }
-
+input,select,button{
+    border: 1px solid rgb(63, 63, 63); 
+    border-radius: 5px;
+}
 .container{
     margin:auto;
     width:60%;
     height:80px;
-    background-color:lightgray;
-    border: 2px solid gray; 
+    background-color:white;
+    border: 2px solid rgb(5, 5, 5); 
     border-radius: 15px;
     position: center; 
     
 }
+#AlertMessage,#AlertMessage2{
+    display: none;
+    margin:2px;
+    color: red;
+    padding-left: 2%;
+}
+#AlertMessage2{
+    margin-left: 41%;
+}
 
 .heading{
-    margin: 20px;
+    margin-top: 3%;
     display: flex;
     justify-content: space-around;
-    height: 30px;
-    
+    height: 30px; 
 
 }
 
 #butt { 
-     background-color: #4CAF50; /* Green background */
-     border: 1px solid green; /* Green border */
-     color: white; /* White text */
+     background-color: rgb(158, 177, 206); /* Green background */
+     color: rgb(29, 18, 75); /* White text */
      padding: 10px 24px; /* Some padding */
      cursor: pointer; /* Pointer/hand icon */
 }
 .b1{
-    background-color: #4CAF50; /* Green background */
-     border: 1px solid green; /* Green border */
-     color: white; /* White text */
+    background-color: rgb(158, 177, 206); /* Green background */
+     color: rgb(29, 18, 75); /* White text */
      padding: 10px 24px; /* Some padding */
      cursor: pointer; /* Pointer/hand icon */
 }
@@ -47,11 +56,11 @@ h1{
 
 
 .result{
-    display: "none";
+    /* display: "none"; */
     margin:auto;
     width:60%;
     background-color:#ffffff;
-    border: 2px solid gray; 
+    border: 2px solid  rgb(26, 26, 26);
     border-radius: 15px;
 }
 table{
